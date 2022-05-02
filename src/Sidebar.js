@@ -15,8 +15,7 @@ import { Button } from "@mui/material";
 function Sidebar() {
   return (
     <div className="sidebar">
-      {/* Twitter icon */}
-      <TwitterIcon />
+      <TwitterIcon className="sidebar-twitterIcon" />
 
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={SearchIcon} text="Explore" />
@@ -27,7 +26,9 @@ function Sidebar() {
       <SidebarOption Icon={PermIdentityIcon} text="Profile" />
       <SidebarOption Icon={MoreHorizIcon} text="More" />
 
-      <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
+      <Button variant="outlined" className="sidebar__tweet" fullWidth>
+        Tweet
+      </Button>
       {/* Button -> Tweet */}
     </div>
   );
