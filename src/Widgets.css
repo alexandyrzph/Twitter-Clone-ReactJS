@@ -12,6 +12,10 @@
   margin-left: 20px;
 }
 
+.widgets-input > input:focus-visible {
+  outline: none;
+}
+
 .widgets-input > input {
   border: none;
   background-color: var(--twitter-background);

@@ -21,6 +21,10 @@
   border: none;
 }
 
+input:focus-visible {
+  outline: none;
+}
+
 .tweetBox-btn {
   background-color: var(--twitter-color) !important;
   border: none !important;
